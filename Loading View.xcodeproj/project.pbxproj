@@ -12,6 +12,8 @@
 		B2A1D5D41FF60A39008C3F06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A1D5D21FF60A39008C3F06 /* Main.storyboard */; };
 		B2A1D5D61FF60A39008C3F06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2A1D5D51FF60A39008C3F06 /* Assets.xcassets */; };
 		B2A1D5D91FF60A39008C3F06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2A1D5D71FF60A39008C3F06 /* LaunchScreen.storyboard */; };
+		B2A1D5E11FF6166E008C3F06 /* MLLoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A1D5E01FF6166E008C3F06 /* MLLoadingViewController.swift */; };
+		B2A1D5E41FF616EA008C3F06 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2A1D5E31FF616EA008C3F06 /* UILabel+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		B2A1D5D51FF60A39008C3F06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B2A1D5D81FF60A39008C3F06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2A1D5DA1FF60A39008C3F06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B2A1D5E01FF6166E008C3F06 /* MLLoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLLoadingViewController.swift; sourceTree = "<group>"; };
+		B2A1D5E31FF616EA008C3F06 /* UILabel+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,8 @@
 		B2A1D5C21FF60A39008C3F06 = {
 			isa = PBXGroup;
 			children = (
+				B2A1D5E31FF616EA008C3F06 /* UILabel+Extension.swift */,
+				B2A1D5E01FF6166E008C3F06 /* MLLoadingViewController.swift */,
 				B2A1D5CD1FF60A39008C3F06 /* Loading View */,
 				B2A1D5CC1FF60A39008C3F06 /* Products */,
 			);
@@ -136,7 +142,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2A1D5E41FF616EA008C3F06 /* UILabel+Extension.swift in Sources */,
 				B2A1D5D11FF60A39008C3F06 /* ViewController.swift in Sources */,
+				B2A1D5E11FF6166E008C3F06 /* MLLoadingViewController.swift in Sources */,
 				B2A1D5CF1FF60A39008C3F06 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
